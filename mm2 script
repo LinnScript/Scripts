@@ -4,11 +4,11 @@ if game.PlaceId == 142823291 then --Proofing just because ;)
 local printvar = true
 --Change to true if you want to see names instead of murderer, sheriff, and innocents with esp
 local espnames = true
---Change keybinds to your liking
-local coinkey = "c" --Coin grabber keybind
+--Change keybber keybind
 local MSkey = "m" --Murderer/Sheriff esp keybind
 local playerskey = "q" --All players esp keybind
-local espoffkey = "b" --Turn esp off keybind
+local espoffkey = "b" --Turn esp off keybindinds to your liking
+local coinkey = "c" --Coin grab
 local flykey = "f" --Fly keybind
 local noclipkey = "r" --Noclip keybind
 local godmodekey = "g" --Godmode keybind
