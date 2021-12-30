@@ -1,6 +1,7 @@
 -- Made by Linn.
 -- Version: 4.0
 
+
 -- Instances:
 
 local LinnsScriptHub = Instance.new("ScreenGui")
@@ -31,7 +32,6 @@ local OPEN = Instance.new("TextButton")
 
 LinnsScriptHub.Name = "Linn's Script Hub"
 LinnsScriptHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-
 Frame.Active = true
 Frame.Draggable = true
 
@@ -172,8 +172,8 @@ X.Name = "X"
 X.Parent = Frame
 X.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
 X.BorderColor3 = Color3.fromRGB(61, 61, 61)
-X.Position = UDim2.new(0.887473464, 0, 0, 0)
-X.Size = UDim2.new(0, 53, 0, 40)
+X.Position = UDim2.new(0.887473404, 0, 0.0174216032, 0)
+X.Size = UDim2.new(0, 46, 0, 35)
 X.Font = Enum.Font.SciFi
 X.Text = "X"
 X.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -253,15 +253,15 @@ OPEN.TextWrapped = true
 
 -- Scripts:
 
-local function MQYVU_fake_script() -- INFINITEYIELD.inf yield script 
+local function PPCGSIA_fake_script() -- INFINITEYIELD.inf yield script 
 	local script = Instance.new('LocalScript', INFINITEYIELD)
 
 	script.Parent.MouseButton1Click:Connect (function()
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 	end)
 end
-coroutine.wrap(MQYVU_fake_script)()
-local function BIQPHO_fake_script() -- OWLHUB.owl hub 
+coroutine.wrap(PPCGSIA_fake_script)()
+local function MAXC_fake_script() -- OWLHUB.owl hub 
 	local script = Instance.new('LocalScript', OWLHUB)
 
 	script.Parent.MouseButton1Click:Connect (function()
@@ -269,64 +269,64 @@ local function BIQPHO_fake_script() -- OWLHUB.owl hub
 	end)
 		
 end
-coroutine.wrap(BIQPHO_fake_script)()
-local function GHMBFP_fake_script() -- PrisonLifeAdmin.LocalScript 
+coroutine.wrap(MAXC_fake_script)()
+local function TJBPAMF_fake_script() -- PrisonLifeAdmin.LocalScript 
 	local script = Instance.new('LocalScript', PrisonLifeAdmin)
 
 	script.Parent.MouseButton1Click:Connect (function()
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife'),true))()
 	end)
 end
-coroutine.wrap(GHMBFP_fake_script)()
-local function VPBHC_fake_script() -- RAGE.LocalScript 
+coroutine.wrap(TJBPAMF_fake_script)()
+local function DFMSCW_fake_script() -- RAGE.LocalScript 
 	local script = Instance.new('LocalScript', RAGE)
 
 	script.Parent.MouseButton1Click:Connect (function()
 		loadstring(game:HttpGet("https://projectevo.xyz/script/loader.lua"))()
 	end)
 end
-coroutine.wrap(VPBHC_fake_script)()
-local function WGQIW_fake_script() -- backdoor.LocalScript 
+coroutine.wrap(DFMSCW_fake_script)()
+local function UHVITA_fake_script() -- backdoor.LocalScript 
 	local script = Instance.new('LocalScript', backdoor)
 
 	script.Parent.MouseButton1Click:Connect (function()
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/iK4oS/backdoor.exe/master/source.lua'),true))()
 	end)
 end
-coroutine.wrap(WGQIW_fake_script)()
-local function JVJH_fake_script() -- funkyfridayauto.LocalScript 
+coroutine.wrap(UHVITA_fake_script)()
+local function JXZIV_fake_script() -- funkyfridayauto.LocalScript 
 	local script = Instance.new('LocalScript', funkyfridayauto)
 
 	script.Parent.MouseButton1Click:Connect (function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua",true))()
 	end)
 end
-coroutine.wrap(JVJH_fake_script)()
-local function SMTUUF_fake_script() -- legit.LocalScript 
+coroutine.wrap(JXZIV_fake_script)()
+local function LGXZ_fake_script() -- legit.LocalScript 
 	local script = Instance.new('LocalScript', legit)
 
 	script.Parent.MouseButton1Click:Connect (function()
 		loadstring(game:HttpGet("https://ehub.fun/raw/script.lua"))()
 	end)
 end
-coroutine.wrap(SMTUUF_fake_script)()
-local function HHWUUT_fake_script() -- NDS.LocalScript 
+coroutine.wrap(LGXZ_fake_script)()
+local function TJRVH_fake_script() -- NDS.LocalScript 
 	local script = Instance.new('LocalScript', NDS)
 
 	script.Parent.MouseButton1Click:Connect (function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
 	end)
 end
-coroutine.wrap(HHWUUT_fake_script)()
-local function YQBOXDA_fake_script() -- explorer.LocalScript 
+coroutine.wrap(TJRVH_fake_script)()
+local function XUNX_fake_script() -- explorer.LocalScript 
 	local script = Instance.new('LocalScript', explorer)
 
 	script.Parent.MouseButton1Click:Connect (function()
 		loadstring(game:GetObjects("rbxassetid://418957341")[1].Source)()
 	end)
 end
-coroutine.wrap(YQBOXDA_fake_script)()
-local function VQBHUND_fake_script() -- X.LocalScript 
+coroutine.wrap(XUNX_fake_script)()
+local function EZMNJX_fake_script() -- X.LocalScript 
 	local script = Instance.new('LocalScript', X)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -334,8 +334,8 @@ local function VQBHUND_fake_script() -- X.LocalScript
 	end)
 	
 end
-coroutine.wrap(VQBHUND_fake_script)()
-local function TPRC_fake_script() -- mm2.mm2 script 
+coroutine.wrap(EZMNJX_fake_script)()
+local function WUUSKE_fake_script() -- mm2.mm2 script 
 	local script = Instance.new('LocalScript', mm2)
 
 	script.Parent.MouseButton1Click:Connect (function()
@@ -343,8 +343,8 @@ local function TPRC_fake_script() -- mm2.mm2 script
 	end)
 	
 end
-coroutine.wrap(TPRC_fake_script)()
-local function FRUNJEM_fake_script() -- FEdance.fe dance script 
+coroutine.wrap(WUUSKE_fake_script)()
+local function TVHNELH_fake_script() -- FEdance.fe dance script 
 	local script = Instance.new('LocalScript', FEdance)
 
 	script.Parent.MouseButton1Click:Connect (function()
@@ -352,8 +352,8 @@ local function FRUNJEM_fake_script() -- FEdance.fe dance script
 	end)
 	
 end
-coroutine.wrap(FRUNJEM_fake_script)()
-local function MUFGZZU_fake_script() -- FEFLING.fe fling script 
+coroutine.wrap(TVHNELH_fake_script)()
+local function ZKWH_fake_script() -- FEFLING.fe fling script 
 	local script = Instance.new('LocalScript', FEFLING)
 
 	script.Parent.MouseButton1Click:Connect (function()
@@ -361,32 +361,32 @@ local function MUFGZZU_fake_script() -- FEFLING.fe fling script
 	end)
 	
 end
-coroutine.wrap(MUFGZZU_fake_script)()
-local function DMSBX_fake_script() -- febtools.fe btools script 
+coroutine.wrap(ZKWH_fake_script)()
+local function MAPY_fake_script() -- febtools.fe btools script 
 	local script = Instance.new('LocalScript', febtools)
 
 	script.Parent.MouseButton1Click:Connect (function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/LinnScript/Scripts/main/fe%20btools",true))()
 	end)
 end
-coroutine.wrap(DMSBX_fake_script)()
-local function DEDD_fake_script() -- feenergizegui.energize script 
+coroutine.wrap(MAPY_fake_script)()
+local function UQYP_fake_script() -- feenergizegui.energize script 
 	local script = Instance.new('LocalScript', feenergizegui)
 
 	script.Parent.MouseButton1Click:Connect (function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/LinnScript/Scripts/main/fe%20energize%20gui",true))()
 	end)
 end
-coroutine.wrap(DEDD_fake_script)()
-local function AEUI_fake_script() -- hatpp.pp 
+coroutine.wrap(UQYP_fake_script)()
+local function VIDHT_fake_script() -- hatpp.pp 
 	local script = Instance.new('LocalScript', hatpp)
 
 	script.Parent.MouseButton1Click:Connect (function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/LinnScript/Scripts/main/hat%20pp%20funny%20xd",true))()
 	end)
 end
-coroutine.wrap(AEUI_fake_script)()
-local function RKPH_fake_script() -- OPEN.LocalScript 
+coroutine.wrap(VIDHT_fake_script)()
+local function DCSY_fake_script() -- OPEN.LocalScript 
 	local script = Instance.new('LocalScript', OPEN)
 
 	local frame = script.Parent.Parent.Frame
@@ -399,4 +399,4 @@ local function RKPH_fake_script() -- OPEN.LocalScript
 	end)
 	
 end
-coroutine.wrap(RKPH_fake_script)()
+coroutine.wrap(DCSY_fake_script)()
