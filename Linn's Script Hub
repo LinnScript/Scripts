@@ -3,6 +3,10 @@
 
 
 -- Instances:
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "LinnHub Loaded!";
+    Text = "Made by Linn.";
+}) 
 
 local LinnsScriptHub = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
