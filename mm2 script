@@ -1,7 +1,7 @@
 if game.PlaceId == 142823291 then --Proofing just because ;)
 --Note: Don't reset with godmode on or you will be stuck on a black screen for a reasonable amount of time
 --Change to false if you dont like printing to console
-local printvar = true
+local printvar = false
 --Change to true if you want to see names instead of murderer, sheriff, and innocents with esp
 local espnames = true
 --Change keybber keybind
