@@ -10,6 +10,8 @@ print("Furry Pride!")
 game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "LinnHub Loaded!";
     Text = "Made by Linn.";
+    Icon = "http://www.roblox.com/asset/?id=2341473470";
+    Duration = "7";
 }) 
 
 local LinnsScriptHub = Instance.new("ScreenGui")
