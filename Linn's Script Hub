@@ -3,6 +3,10 @@
 
 
 -- Instances:
+
+print("Furry Pride!")
+
+
 game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "LinnHub Loaded!";
     Text = "Made by Linn.";
