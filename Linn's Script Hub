@@ -1,6 +1,12 @@
 --// Made by Linn.
 --// Version: 5.0 (Thanks for using!)
 
+--// Arceus X / KittyMilk Detector
+local ismobile = game:GetService("UserInputService").TouchEnabled
+if ismobile == true then
+ game.Players.LocalPlayer:Kick("el arceus x es un virus lol")
+end
+--// lol
 
 -- Instances:
 print("radio stinks lol")
