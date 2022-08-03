@@ -6,6 +6,13 @@ local ismobile = game:GetService("UserInputService").TouchEnabled
 if ismobile == true then
 	game.Players.LocalPlayer:Kick("el arceus x es un virus lol")
 end
+--// Or
+
+if identifyexecutor() == "Arceus X" then
+	game.Players.LocalPlayer:Kick("el arceus x es un virus lol")
+end
+--// END!!
+
 
 -- Instances:
 print("radio stinks lol")
