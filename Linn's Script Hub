@@ -4,7 +4,7 @@
 --// Arceus X / Other mobile exploits detector
 local ismobile = game:GetService("UserInputService").TouchEnabled
 if ismobile == true then
-	game.Players.LocalPlayer:Kick("el arceus x es un virus lol")
+	game.Players.LocalPlayer:Kick("todos los cheats para movil tienen virus. Disfruta de tu virus.")
 end
 --// Or
 
