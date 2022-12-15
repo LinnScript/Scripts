@@ -51,6 +51,13 @@ MainSection:NewButton("Murder Mystery 2 Cheat", "A mm2 script that includes esp 
     print("MM2 loaded.")
 end)
 
+
+MainSection:NewButton("Blox Hunt", "A Blox Hunt script.", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LinnScript/Scripts/main/bloxhunt"))()
+    print("BLOX hunt loaded.")
+end)
+
+
 --LOCAL PLAYER
 
 local Player = Window:NewTab("Local Player")
