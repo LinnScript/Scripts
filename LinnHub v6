@@ -26,6 +26,31 @@ MainSection:NewButton("Legit Phantom Forces Aimbot", "A neat legit aimbot for PF
     print("PF loaded.")
 end)
 
+MainSection:NewButton("RAGE PF EvoV2", "rage hack for evov2 and also legit", function()
+    loadstring(game:HttpGet("https://projectevo.xyz/script/loader.lua"))()
+    print("PF loaded.")
+end)
+
+MainSection:NewButton("BackDoor Checker", "Useful to check if a game is backdoored", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/master/source.lua"))()
+    print("Backdoor loaded.")
+end)
+
+MainSection:NewButton("Funky Friday Auto", "You're a pussy if you use this.", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/master/source.lua"))()
+    print("Autoplayer loaded.")
+end)
+
+MainSection:NewButton("Natural Disasters.", "A NDS script.", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub"))()
+    print("NDS.")
+end)
+
+MainSection:NewButton("Murder Mystery 2 Cheat", "A mm2 script that includes esp and tp.", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LinnScript/Scripts/main/mm2%20script"))()
+    print("MM2.")
+end)
+
 --LOCAL PLAYER
 
 local Player = Window:NewTab("Local Player")
@@ -36,4 +61,18 @@ PlayerSection:NewSlider("WalkSpeed", "Grants you WalkSpeed hacks", 500, 16, func
 end)
 PlayerSection:NewSlider("JumpPower", "Makes you jump higher.", 350, 50, function(s) -- 500 (MaxValue) | 16 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+end)
+
+PlayerSection:NewButton("Reset WS/JP", "Resets WalkSpeed & JumpPower to defaults.", function()
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+end)
+
+-- Other stuff
+
+local Tab1 = Window:NewTab("Misc")
+local Section1 = Tab1:NewSection("Miscellaneous")
+
+Section1:NewKeybind("Toggle ui", "KeyBind to toggle on/off the GUI", Enum.KeyCode.F3, function()
+    Library:ToggleUI()
 end)
