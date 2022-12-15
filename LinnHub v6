@@ -43,12 +43,12 @@ end)
 
 MainSection:NewButton("Natural Disasters.", "A NDS script.", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub"))()
-    print("NDS.")
+    print("NDS loaded.")
 end)
 
 MainSection:NewButton("Murder Mystery 2 Cheat", "A mm2 script that includes esp and tp.", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/LinnScript/Scripts/main/mm2%20script"))()
-    print("MM2.")
+    print("MM2 loaded.")
 end)
 
 --LOCAL PLAYER
