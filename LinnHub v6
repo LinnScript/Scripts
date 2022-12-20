@@ -37,7 +37,7 @@ MainSection:NewButton("BackDoor Checker", "Useful to check if a game is backdoor
 end)
 
 MainSection:NewButton("Funky Friday Auto", "You're a pussy if you use this.", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/master/source.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua"))()
     print("Autoplayer loaded.")
 end)
 
