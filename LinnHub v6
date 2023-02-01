@@ -7,7 +7,7 @@ local Main = Window:NewTab("Main")
 local MainSection = Main:NewSection("Scripts")
 
 MainSection:NewButton("Infinite Yield", "Fe admin commands.", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/LinnScript/Scripts/main/IY'))()
     print("Infinite Yiff loaded.")
 end)
 
